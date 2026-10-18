@@ -1,0 +1,55 @@
+{
+  "record_type": "Selected fields from retained experimental audit records",
+  "test_partition": {
+    "retained_samples": 4212,
+    "event_spatial_groups": 145,
+    "test_samples": 802,
+    "test_groups": 14,
+    "formal_partition_sha256": "6aa17e0283e211a9bc7beaea314034607d9c2bd7c232d97c8f5838775bd974eb"
+  },
+  "formal_test_audit": {
+    "status": "PASS_OBSERVATION_ROBUST_COMBINED_GROUP_TEST_V2_TERMINAL_AUDIT",
+    "recorded_at": "2026-08-01T06:33:02+08:00",
+    "method_cells": 15,
+    "comparator_cells": 12,
+    "total_cells": 27,
+    "all_cell_audits_passed": true
+  },
+  "statistics_audit": {
+    "status": "PASS_OBSERVATION_ROBUST_GROUP_STATISTICS_V2_AUDIT",
+    "bootstrap_replicates": 10000
+  },
+  "main_result": {
+    "A4_complete_f1_mean": 0.61568,
+    "A4_mean_missing_f1_mean": 0.451716,
+    "A4_worst_missing_f1_mean": 0.116678,
+    "A4_minus_ordinary_mean_missing": 0.10871046655646682,
+    "A4_minus_ordinary_worst_missing": 0.014901728750988663,
+    "A4_minus_A0_mean_missing": 0.12062787613565695,
+    "positive_dual_baseline_robustness_claim_supported": false
+  },
+  "revision_records": {
+    "ablation": {
+      "status": "EP1_A40_ARM_EIGHT_CONDITION_SUMMARY_V1",
+      "configurations": 6,
+      "seeds": [
+        42,
+        123,
+        777
+      ],
+      "recorded_cells": 18
+    },
+    "full_scene_inference": {
+      "status": "PASS_DLR_GFZ_FULL_SCENE_INFERENCE_V1",
+      "completed_at": "2026-10-16T09:01:07+08:00",
+      "tile_count": 66
+    }
+  },
+  "source_record_sha256": {
+    "project_completion_audit_v1.json": "39e3c9e5cab0c919433e5e5cb50272c62b45ba6e80e4b6f3f55dbefd92fb383b",
+    "observation_robust_combined_group_test_v2_terminal_audit.json": "c4d55823ef7f0e586759a0d2c4a1896db62e06d9882519254284bd489aa8ff03",
+    "statistics_audit.json": "f2cee3e54a70ff7041c6938d40993d897d652cc76ca24b9f602e04421790ffb9",
+    "a40_arm_analysis.json": "4c652c666e7060849d1caa6f892cd7209c844e9462205db70a5d5f706342fd98",
+    "run_receipt.json": "57261b86fdb1afd7fb312b8d0d32a4a21703408f9f4b5e4e6d6327056be09f5c"
+  }
+}
