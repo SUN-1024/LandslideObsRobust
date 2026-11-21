@@ -19,7 +19,7 @@ Use `ablation="A4"` in `forward`. The model takes labeled Sentinel-1 ascending, 
 
 ## Data splits
 
-`splits/train.jsonl`, `splits/val.jsonl`, and `splits/test.jsonl` identify the Sen12Landslides training, validation, and test samples and their event/spatial groups. They contain 2,737, 673, and 802 records, respectively. The public copies retain the split assignments, sample identifiers, group identifiers, source file names, and file checksums; machine-specific absolute paths were removed. The original data are available at https://huggingface.co/datasets/paulhoehn/Sen12Landslides (CC BY 4.0; DOI: https://doi.org/10.57967/hf/5883).
+`splits/train.jsonl`, `splits/val.jsonl`, and `splits/test.jsonl` identify the Sen12Landslides training, validation, and test samples and their event/spatial groups. They contain 2,737, 673, and 802 records, respectively, in 112, 10, and 14 retained groups. The 145 groups reported by the partition builder are counted before the spatial guard. The public copies retain the split assignments, sample identifiers, group identifiers, source file names, and file checksums; machine-specific absolute paths were removed. The original data are available at https://huggingface.co/datasets/paulhoehn/Sen12Landslides (CC BY 4.0; DOI: https://doi.org/10.57967/hf/5883).
 
 ## Evaluation summary
 

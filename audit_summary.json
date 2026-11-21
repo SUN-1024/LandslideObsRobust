@@ -2,10 +2,16 @@
   "record_type": "Selected fields from retained experimental audit records",
   "test_partition": {
     "retained_samples": 4212,
-    "event_spatial_groups": 145,
     "test_samples": 802,
     "test_groups": 14,
-    "formal_partition_sha256": "6aa17e0283e211a9bc7beaea314034607d9c2bd7c232d97c8f5838775bd974eb"
+    "formal_partition_sha256": "6aa17e0283e211a9bc7beaea314034607d9c2bd7c232d97c8f5838775bd974eb",
+    "event_spatial_groups_before_spatial_guard": 145,
+    "event_spatial_groups_retained": 136,
+    "retained_groups_by_split": {
+      "train": 112,
+      "validation": 10,
+      "test": 14
+    }
   },
   "formal_test_audit": {
     "status": "PASS_OBSERVATION_ROBUST_COMBINED_GROUP_TEST_V2_TERMINAL_AUDIT",
