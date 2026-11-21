@@ -1,0 +1,1 @@
+"""Core landslide segmentation model."""
